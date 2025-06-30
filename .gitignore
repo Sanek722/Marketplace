@@ -1,0 +1,17 @@
+# IntelLiJ
+.idea/
+*.iml
+out/
+target/
+
+#VScode
+.vscode/
+
+#Node.js (React)
+node_modules/
+build/
+
+#Общие
+*.log
+.env
+.DS_Store

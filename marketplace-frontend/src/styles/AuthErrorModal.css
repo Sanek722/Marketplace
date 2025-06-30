@@ -1,0 +1,58 @@
+/* Окно модального окна */
+.modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); /* Затемнение фона */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 9999; /* Убедитесь, что оно поверх всего остального */
+  }
+  
+  /* Контейнер модального окна */
+  .modal-content {
+    background-color: white;
+    border-radius: 8px;
+    padding: 20px;
+    width: 300px; /* Ширина окна */
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Тень вокруг окна */
+    animation: fadeIn 0.3s ease-in-out; /* Плавное появление окна */
+  }
+  
+  /* Заголовок */
+  .modal-content h2 {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  /* Кнопка закрытия */
+  .modal-content button {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  /* Изменение цвета кнопки при наведении */
+  .modal-content button:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Анимация появления */
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+  

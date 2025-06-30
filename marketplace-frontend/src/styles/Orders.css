@@ -1,0 +1,90 @@
+/* Общие стили */
+.orders-page {
+    min-height: 100vh;
+    background-color: #f3f4f6;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    padding: 20px;
+  }
+  
+  .orders-container {
+    max-width: 900px;
+    margin: 0 auto;
+  }
+  
+  .orders-title {
+    font-size: 28px;
+    font-weight: bold;
+    color: #1f2937;
+    margin-bottom: 24px;
+  }
+  
+  .orders-empty {
+    color: #6b7280;
+    font-size: 18px;
+    text-align: center;
+    margin-top: 40px;
+  }
+  
+  /* Карточка заказа */
+  .order-card {
+    background-color: #ffffff;
+    border-radius: 16px;
+    padding: 24px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+    margin-bottom: 24px;
+    transition: box-shadow 0.3s ease;
+  }
+  
+  .order-card:hover {
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.08);
+  }
+  
+  .order-date {
+    font-size: 14px;
+    color: #6b7280;
+    margin-bottom: 6px;
+  }
+  
+  .order-status {
+    font-size: 14px;
+    color: #2563eb;
+    margin-bottom: 16px;
+  }
+  
+  .order-items-title {
+    font-weight: 600;
+    color: #374151;
+    margin-bottom: 8px;
+  }
+  
+  .order-items-list {
+    list-style: none;
+    padding-left: 0;
+    margin: 0;
+    border-top: 1px solid #e5e7eb;
+  }
+  
+  .order-item {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0;
+    border-bottom: 1px solid #e5e7eb;
+  }
+  
+  .order-item-name {
+    color: #111827;
+  }
+  
+  .order-item-info {
+    color: #6b7280;
+    font-size: 14px;
+  }
+  
+  .order-total {
+    text-align: right;
+    font-size: 18px;
+    font-weight: 600;
+    color: #111827;
+    margin-top: 16px;
+  }
+  

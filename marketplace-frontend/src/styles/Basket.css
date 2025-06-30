@@ -1,0 +1,122 @@
+.basket-main {
+    padding: 2rem;
+    max-width: 900px;
+    margin: 0 auto;
+  }
+  
+  .basket-title {
+    font-size: 2rem;
+    text-align: center;
+    margin-bottom: 2rem;
+  }
+  
+  .basket-message {
+    padding: 10px;
+    margin-bottom: 20px;
+    background-color: #e0ffe0;
+    border: 1px solid #00a000;
+    border-radius: 8px;
+    text-align: center;
+  }
+  
+  .basket-list {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+  }
+  
+  .basket-card {
+    display: flex;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 1rem;
+    background-color: #fff;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+    align-items: center;
+    gap: 1rem;
+  }
+  
+  .basket-image {
+    width: 120px;
+    height: 120px;
+    object-fit: cover;
+    border-radius: 8px;
+  }
+  
+  .basket-info {
+    flex: 1;
+  }
+  
+  .basket-info h3 {
+    margin: 0 0 10px 0;
+  }
+  
+  .basket-actions {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-top: 10px;
+  }
+  
+  .basket-actions input {
+    width: 60px;
+    padding: 4px 6px;
+  }
+  
+  .basket-remove-btn {
+    background-color: #e74c3c;
+    color: white;
+    border: none;
+    padding: 6px 10px;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .basket-remove-btn:hover {
+    background-color: #c0392b;
+  }
+  
+  .basket-total {
+    font-size: 1.2rem;
+    text-align: right;
+    margin-top: 1rem;
+  }
+  
+  .basket-order-btn {
+    display: block;
+    margin: 1.5rem auto 0;
+    padding: 10px 20px;
+    font-size: 1rem;
+    background-color: #27ae60;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+  }
+  
+  .basket-order-btn:hover {
+    background-color: #219150;
+  }
+  
+  .basket-empty {
+    text-align: center;
+    font-size: 1.2rem;
+    margin-top: 3rem;
+  }
+  
+  .basket-remove-btn {
+    background-color: #ff4d4d;
+    color: white;
+    border: none;
+    padding: 6px 12px;
+    margin-left: 10px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background-color 0.2s ease;
+  }
+  
+  .basket-remove-btn:hover {
+    background-color: #cc0000;
+  }
+  
